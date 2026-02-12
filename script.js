@@ -5,7 +5,7 @@ const page1 = document.getElementById('page1');
 
 const btn = document.getElementById('mybutton');
 const showImg = document.getElementById('myimg');
-
+let count = 0;
 startBtn.addEventListener('click', function(){
     welcomePage.style.display = 'none';
     page1.style.display = 'block';
@@ -22,12 +22,6 @@ const allImages = [
     "6.jpg"
 ];   
 
-let count = 0;
-startBtn.addEventListener('click',function(){
-    welcomePage.style.display = 'none';
-    page1.style.display = 'block';
-})
-
 btn.addEventListener('click', function(){
     count = count+1;
     if(count >= allImages.length){
@@ -36,3 +30,4 @@ btn.addEventListener('click', function(){
     showImg.src = allImages[count];
 
 });
+
