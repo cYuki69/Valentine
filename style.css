@@ -1,0 +1,46 @@
+body{
+    font-family: 'Arial',sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+#page1{
+    display: none;
+}
+
+#myimg {
+    /* display: none; */
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 300px;
+    height: 300px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+button{
+    text-align: center;
+    margin-top: 20px;
+    background-color: skyblue;
+    color: aliceblue;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #5dade2;
+}
