@@ -15,10 +15,12 @@ body{
     display: none;
 }
 .page1{
-    width: 100%;
-    max-width: 300px; 
+    width: 90vw;
+    max-width: 500px; 
     text-align: center;
     padding: 20px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 #myimg {
@@ -67,6 +69,7 @@ button:hover{
     background-color: #5dade2;
 
 }
+
 
 
 
