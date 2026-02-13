@@ -12,7 +12,10 @@ const allImages = [
     "2.jpg",
     "3.jpg",
     "4.jpg",
-    "6.jpg"
+    "6.jpg",
+    "20.jpg",
+    "21.jpg",
+    "22.jpg"
 ];   
 
 let count = 0;
@@ -47,6 +50,7 @@ btn.addEventListener('click', function(){
         showImg.src = allImages[count];
     }
 });
+
 
 
 
