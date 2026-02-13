@@ -51,6 +51,7 @@ p {
 }
 .button{
     text-align: center;
+    width: 100%;
 }
 
 button{
@@ -70,5 +71,6 @@ button:hover{
     background-color: #5dade2;
 
 }
+
 
 
