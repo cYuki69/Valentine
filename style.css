@@ -2,10 +2,23 @@ body{
     font-family: 'Arial',sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f2fe; 
+    transition: background 0.5s ease;
 }
 #page1{
     display: none;
+}
+.page1{
+    width: 90%;
+    max-width: 500px; 
+    text-align: center;
+    padding: 20px;
 }
 
 #myimg {
@@ -28,19 +41,29 @@ body{
     margin-bottom: 10px;
 
 }
+h1 {
+    color: #0369a1;
+    margin-bottom: 10px;
+}
+p {
+    color: #334155;
+    margin-bottom: 20px;
+}
 
 button{
-    text-align: center;
-    margin-top: 20px;
-    background-color: skyblue;
-    color: aliceblue;
+    margin-top: 30px;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #0ea5e9;
     border: none;
-    padding: 15px 30px;
-    border-radius: 25px;
-    font-size: 20px;
+    border-radius: 50px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
 }
 button:hover{
     background-color: #5dade2;
+
 }
