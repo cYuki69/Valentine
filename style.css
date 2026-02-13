@@ -49,9 +49,11 @@ p {
     color: #334155;
     margin-bottom: 20px;
 }
-.button{
-    text-align: center;
+.welcome,
+.page1 {
     width: 100%;
+    max-width: 500px;
+    text-align: center; 
 }
 
 button{
@@ -71,6 +73,7 @@ button:hover{
     background-color: #5dade2;
 
 }
+
 
 
 
