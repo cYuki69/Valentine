@@ -49,7 +49,7 @@ p {
     color: #334155;
     margin-bottom: 20px;
 }
-#button{
+.button{
     text-align: center;
 }
 
@@ -70,4 +70,5 @@ button:hover{
     background-color: #5dade2;
 
 }
+
 
