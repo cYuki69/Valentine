@@ -22,7 +22,7 @@ startBtn.addEventListener('click', function(){
     page1.style.display = 'block';
     // ตั้งค่ารูปเริ่มต้นให้เป็นรูปแรกใน Array เมื่อกดเข้าหน้าหลัก
     showImg.src = allImages[0]; 
-    document.body.style.backgroundImage = "url('bg1.jpg')";
+    document.body.style.backgroundImage = "url('bg2.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundAttachment = "fixed";
 });
@@ -47,4 +47,5 @@ btn.addEventListener('click', function(){
         showImg.src = allImages[count];
     }
 });
+
 
