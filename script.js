@@ -7,7 +7,7 @@ const btn = document.getElementById('mybutton');
 const showImg = document.getElementById('myimg');
 
 const allImages = [
-    "cat.jpg",
+    "cat.jpg ,12.jpg",
     "1.jpg",
     "2.jpg",
     "3.jpg",
@@ -47,5 +47,6 @@ btn.addEventListener('click', function(){
         showImg.src = allImages[count];
     }
 });
+
 
 
