@@ -31,15 +31,7 @@ btn.addEventListener('click', function(){
     }
     showImg.src = allImages[count];
 
-});
-
-btn.addEventListener('click', function(){
-    count = count + 1;
-    
-    // ตรวจสอบว่าถ้ากดจนเกินจำนวนรูปภาพที่มี
-    if(count >= allImages.length){
-        // ซ่อนรูปภาพและปุ่ม Next
-        showImg.style.display = 'none';
+     showImg.style.display = 'none';
         btn.style.display = 'none';
         
         // แสดงหน้าสุดท้าย
@@ -50,5 +42,16 @@ btn.addEventListener('click', function(){
         // ถ้ายังไม่ถึงรูปสุดท้าย ก็เปลี่ยนรูปตามปกติ
         showImg.src = allImages[count];
     }
+
 });
+
+btn.addEventListener('click', function(){
+    count = count + 1;
+    
+    // ตรวจสอบว่าถ้ากดจนเกินจำนวนรูปภาพที่มี
+    if(count >= allImages.length){
+        // ซ่อนรูปภาพและปุ่ม Next
+       
+});
+
 
